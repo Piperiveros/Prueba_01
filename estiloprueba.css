@@ -1,0 +1,109 @@
+h1{
+	font-family: 'Raleway', sans-serif;
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+}
+
+.logo{
+	position: absolute;
+	border-radius: 10%;
+	height: 50px;
+}
+
+.navbar.navbar-default{
+	height: 80px;
+	margin-bottom: 0;
+}
+
+.navbar-right{
+	padding-top: 30px;
+}
+	
+.header-banner{
+	background-image: url(images/foto_banner.jpeg);
+	height: 600px;
+	margin-bottom: 20px;
+	margin-top: 81px;
+
+}
+
+.header-banner__logo{
+	border-radius: 10%;
+
+}
+
+.header-banner__container{
+	background-color: black;
+	opacity: 0.8;
+	width: 100%;
+	position: relative;
+	top: 150px;
+	padding: 10px 15px 20px 15px;
+	border-radius: 10px;
+
+}
+.header-banner__text{
+	text-align: center;
+	color: white;
+	margin-top: 0;
+	padding-top: 30px;
+	text-align: center;
+}
+
+.header-banner__text2{
+	color: white;
+	text-align: center;
+}
+
+.header-banner__text3{
+	color: #0d4194
+}
+
+.header-nosotros__separacion{
+	margin-top: 90px;
+}
+
+.header-nosotros__img{
+	margin-top: 40px;
+}
+
+.banner-nosotros__noticias{
+	margin-top: 30px;
+}
+
+.header-noticias__separacion{
+	margin-top: 81px;
+}
+.banner-noticias__img{
+	margin-top: 30px;
+}
+
+.banner-noticias__blog{
+	background-color: #5b9ac7;
+	color: white;
+
+}
+.footer-banner__icon{
+	display: inline-block;
+	width: 15px;
+}
+
+.footer-banner__text{
+	color: white;
+}
+
+form{
+	background-color: silver;
+	padding-top: 10px;
+
+}
+footer{
+	background-color: silver;
+}
+
+.footer-banner__map{
+	padding-top: 10px;
+}
+
