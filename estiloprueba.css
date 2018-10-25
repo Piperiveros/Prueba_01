@@ -12,13 +12,28 @@ p{
 	height: 50px;
 }
 
+.navbar-toggle{
+	margin-top: 30px;
+}
+
 .navbar.navbar-default{
 	height: 80px;
 	margin-bottom: 0;
 }
 
+.navbar-collapse{
+	background-color: silver;
+}
+
+@media (min-width: 768px){
+	.navbar-collapse{
+		background-color: transparent;
+	}
+}
+
 .navbar-right{
 	padding-top: 30px;
+	margin-top: 10px;
 }
 	
 .header-banner{
@@ -26,6 +41,7 @@ p{
 	height: 600px;
 	margin-bottom: 20px;
 	margin-top: 81px;
+	text-align: center;
 
 }
 
@@ -42,7 +58,14 @@ p{
 	top: 150px;
 	padding: 10px 15px 20px 15px;
 	border-radius: 10px;
+	display: inline-block;
 
+}
+
+@media(min-width: 768px){
+	.header-banner__container{
+		width: 50%;
+	}
 }
 .header-banner__text{
 	text-align: center;
